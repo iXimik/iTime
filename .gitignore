@@ -1,0 +1,16 @@
+# no credentials, even if the universe begs
+**/secrets.h
+**/secrets.local.h
+**/.env
+.env
+*.log
+*.bin
+*.elf
+*.map
+*.hex
+*.uf2
+build/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
