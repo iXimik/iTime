@@ -1,3 +1,22 @@
+# iTime — From a Two-Line LCD to a Dual-Screen Weather Terminal
+
+**[🇷🇺 Русский](README.md) · 🇬🇧 English**
+
+## 🌦️ Latest field-tested stable version — iTime 2.1
+
+**Verified on real hardware on 4 November 2026:** ESP32-S3 N16R8, two independent 1.8-inch ST7735 TFTs, fixed UTC+4 NTP clock, OpenWeather for Samara, air pressure in mmHg, a local HTTP server and browser dashboard. The second screen displays **weather for 5 minutes, then server status for 5 seconds**. No constant full-screen flicker.
+
+> iTime started as a clock. It acquired two color screens, a weather API, FreeRTOS and a soldering iron. Then a multimeter explained to everyone that debugging a bad jumper wire in software is not a sustainable engineering strategy.
+
+**[📖 Full iTime 2.1 technical guide, pin mapping, PowerShell instructions, HTTP API and sarcastic debugging history](docs/itime-2.1/README.en.md)**  
+**[💻 Stable firmware source](firmware/itime_2_1/itime_2_1.ino)** · **[🛡️ TLS trust bundle](firmware/itime_2_1/openweather_ca.h)** · **[🔐 Safe credentials template](firmware/itime_2_1/secrets.example.h)**
+
+The original **iTime 1.0** source and photographs remain intact below. Ubuntu RSS news integration is planned for **iTime 2.2**; no pretending that a roadmap is a release.
+
+---
+
+## 📟 Original iTime 1.0 documentation
+
 # iTime ⏰ — The ESP32 Clock That Survived Its Own Firmware (Barely)
 
 [🇷🇺 Русский](README.md) · **🇬🇧 English**
